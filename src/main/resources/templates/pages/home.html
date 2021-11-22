@@ -3,14 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link th:href="@{/css/main.css}" rel="stylesheet" />
+    <link th:href="@{/css/main.css}" rel="stylesheet"/>
 </head>
 <h1>Mandrille84 art</h1>
 <p>Localisation:<span th:text=${#locale.country}></span></p>
-<p1>Bonjour bienvenu dans mon univers vous trouverez ici mes tableaux et mes dessins je vous souhaite un délicieux voyage</p1>
+<nav>
+    <ul>
+        <li class="menu-Bootstrap"><a href="mon_parcours.html">mes réalisation</a>
+            <ul class="submenu1">
+                <li><a href="#">carrousel</a></li>
+                <li><a href="#">peintures</a></li>
+                <li><a href="#">illustration</a></li>
+                <li><a href="#">bd</a></li>
+            </ul>
+        </li>
+        <li class="menu-css"><a href="contact.html">contact</a>
+            <ul class="submenu2">
+                <li><a href="#">mail</a></li>
+                <li><a href="#">insta</a></li>
+                <li><a href="#"> facebook</a></li>
+                <li><a href="#"> linkedin</a></li>
+            </ul>
+        </li>
+
+    </ul>
+</nav>
+<input class="bouton_nft" type="button" value="nft" onclick="RedirectionJavascript()">
 
 <body>
-<img src="../static/images/dandara.jpeg" width="1000" th:src="@{images/dandara.jpeg}"/>
+<p1>Bonjour bienvenu dans mon univers vous trouverez ici mes tableaux et mes dessins je vous souhaite un délicieux
+    voyage
+</p1>
+
+<img src="../static/images/dandara.jpeg" width="500" th:src="@{images/dandara.jpeg}"/>
 
 </body>
 </html>

@@ -5,3 +5,109 @@ span {
     color: blue;
 }
 
+ header {
+    font-family: cursive;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bouton_moncv {
+    border: #222538;
+    background-color: #222538;
+    margin-top: 150px;
+    align-items: center;
+    color: aliceblue;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(80, 70, 70);
+    position: fixed;
+}
+
+nav>ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav>ul>li ::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+nav>ul>li {
+    float: left;
+    position: relative;
+}
+
+nav>ul>li>a {
+    padding: 20px 30px;
+    color: honeydew;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+.submenu1 {
+    display: none;
+}
+
+.submenu2 {
+    display: none;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav :hover .submenu1 {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 1000;
+}
+
+nav :hover .submenu2 {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 1000;
+}
+
+.submenu li {
+    border-bottom: 1px solid grey;
+}
+
+.submenu li a {
+    padding: 15px 30px;
+    font-size: 13px;
+    color: #222538;
+    width: 270px;
+}
+
+.menu-html:hover {
+    border-top: 5px solid red;
+    background-color: rgba(228, 77, 38, 0.15);
+}
+
+.menu-css:hover {
+    border-top: 5px solid #0070bb;
+    background-color: rgba(000, 112, 192, 0.15);
+}
+
+.menu-javascript:hover {
+    border-top: 5px solid yellow;
+    background-color: rgba(241, 211, 79, 0.15);
+}
+
+.menu-contact:hover {
+    border-top: 5px solid rgb(255, 153, 0);
+    background-color: rgba(241, 165, 79, 0.712);
+}

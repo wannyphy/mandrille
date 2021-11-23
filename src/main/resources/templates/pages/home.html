@@ -14,29 +14,31 @@
 
 <nav>
     <ul>
-        <li class="menu_réalisation"><a href="">mes réalisation</a>
-            <ul class="submenu1">
-                <li><a href="#">carrousel</a></li>
-                <li><a href="#">peintures</a></li>
-                <li><a href="#">illustration</a></li>
-                <li><a href="#">bd</a></li>
+        <li class="menu-deroulant">
+            <a href="#">Réalisations</a>
+            <ul class="sous-menu">
+                <li><a href="#">Peintures</a></li>
+                <li><a href="#">Illustrations</a></li>
+                <li><a href="#">Fresques</a></li>
+                <li><a href="#">Marketing</a></li>
             </ul>
         </li>
-            <li class="menu_contact"><a href="">contact</a>
-                <ul class="submenu2">
-                    <li><a href="#">mail</a></li>
-                    <li><a href="#">insta</a></li>
-                    <li><a href="#"> facebook</a></li>
-                    <li><a href="#"> linkedin</a></li>
-                </ul>
-            </li>
-        </ul>
+        <li class="menu-deroulant">
+            <a href="#">Evénements</a>
+            <ul class="sous-menu">
+                <li><a href="#">Soirées</a></li>
+                <li><a href="#">Exposition</a></li>
+            </ul>
+        </li>
+        <li><a href="#">À propos</a></li>
+        <li><a href="#">Contactez-nous</a></li>
+    </ul>
 </nav>
 <p1>Bonjour bienvenu dans mon univers vous trouverez ici mes tableaux et mes dessins je vous souhaite un délicieux
     voyage
 </p1>
 
-<img src="../static/images/dandara.jpeg" width="500" th:src="@{images/dandara.jpeg}"/>
+<img class="main_img" src="../static/images/dandara.jpeg" width="500" th:src="@{images/dandara.jpeg}"/>
 
 </body>
 </html>

@@ -21,8 +21,10 @@ span {
 
 nav {
     width: 100%;
-    background-color: rgb(80, 70, 70);
+    background-color:royalblue;
     position: fixed;
+    display: flex;
+    justify-content: space-between;
 }
 
 nav>ul {
@@ -42,6 +44,7 @@ nav>ul>li {
 }
 
 nav>ul>li>a {
+    display: inline-block;
     padding: 20px 30px;
     color: honeydew;
 }
@@ -61,6 +64,7 @@ nav li {
 nav a {
     display: inline-block;
     text-decoration: none;
+    color: honeydew;
 }
 
 nav :hover .submenu1 {
@@ -88,26 +92,16 @@ nav :hover .submenu2 {
 .submenu li a {
     padding: 15px 30px;
     font-size: 13px;
-    color: #222538;
+    color: white;
     width: 270px;
 }
 
-.menu-html:hover {
+.menu_réalisation:hover {
     border-top: 5px solid red;
-    background-color: rgba(228, 77, 38, 0.15);
+    background-color: cornflowerblue;
 }
 
-.menu-css:hover {
-    border-top: 5px solid #0070bb;
-    background-color: rgba(000, 112, 192, 0.15);
-}
-
-.menu-javascript:hover {
-    border-top: 5px solid yellow;
-    background-color: rgba(241, 211, 79, 0.15);
-}
-
-.menu-contact:hover {
+.menu_contact:hover {
     border-top: 5px solid rgb(255, 153, 0);
-    background-color: rgba(241, 165, 79, 0.712);
+    background-color: dodgerblue;
 }

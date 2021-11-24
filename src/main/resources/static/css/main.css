@@ -290,7 +290,17 @@ h1 {
     width: 100%;
     margin: 0 auto 0 auto;
     font-family: 'Lato', sans-serif;
-    line-height: 280px;
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+}
+
+
+h3 {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    font-family: 'Lato', sans-serif;
     font-size: 4rem;
     text-align: center;
     text-transform: uppercase;
@@ -307,6 +317,7 @@ h1::before {
     width: 100%;
     height: 750px;
     position: absolute;
+    opacity: 50%;
     top: -200px;
     left: 10px;
     transform: rotate(55deg);

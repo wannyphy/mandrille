@@ -4,59 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-    <title>Title</title>
-    <link th:href="@{/css/main.css}" rel="stylesheet"/>
+<title>Title</title>
+
+<link id="css"  th:href="@{/css/main.css}" rel="stylesheet"/>
+<script type="text/javascript" th:src="@{/js/main.js}"></script>
 </head>
-<div><h1>Mandrille84 art</h1></div>
-<div>
-    <p>Localisation:<span th:text=${#locale.country}></span></p>
-    <div>
+<header>
+    <div id="wrapper">
+        <h1 class="chrome">Mandrille84</h1>
+        <h3 class="dreams">art</h3>
+        <p>Localisation:<span th:text=${#locale.country}></span></p>
+        </div>
 
-        <input class="bouton_tipee" type="button" value="tipee" onclick="RedirectionJavascript()">
-        <section>
-            <div class="background-img">
-                <div class="box">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <div class="content">
+            <input class="bouton_1984" type="button" value="1984" onclick=style84()>
+            <input class="bouton_Now" type="button" value="now" onclick=styleNow()>
+            <section>
+                <div class="background-img">
+                    <div class="box">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="content">
+                        </div>
+                        <img class="head_img" src="../static/images/caliostro.jpeg" width="500"
+                             th:src="@{images/caliostro.jpeg}"/>
                     </div>
-                    <img class="head_img" src="../static/images/caliostro.jpeg" width="500"
-                         th:src="@{images/caliostro.jpeg}"/>
                 </div>
-            </div>
-        </section>
-        <body>
-        <nav>
-            <ul>
-                <li class="menu-deroulant">
-                    <a href="#">Réalisations</a>
-                    <ul class="sous-menu">
-                        <li><a href="#">Peintures</a></li>
-                        <li><a href="#">Illustrations</a></li>
-                        <li><a href="#">Fresques</a></li>
-                        <li><a href="#">Marketing</a></li>
-                    </ul>
-                </li>
-                <li class="menu-deroulant">
-                    <a href="#">Evénements</a>
-                    <ul class="sous-menu">
-                        <li><a href="#">Soirées</a></li>
-                        <li><a href="#">Exposition</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">À propos</a></li>
-                <li><a href="#">Contactez-nous</a></li>
+            </section>
+</header>
+<body>
+<nav>
+    <ul>
+        <li class="menu-deroulant">
+            <a href="#">Réalisations </a>
+            <ul class="sous-menu">
+                <li><a href="#">Peintures</a></li>
+                <li><a href="#">Illustrations</a></li>
+                <li><a href="#">Fresques</a></li>
+                <li><a href="#">Marketing</a></li>
             </ul>
-        </nav>
-        <p1>Bonjour bienvenu dans mon univers vous trouverez ici mes tableaux et mes dessins je vous souhaite un
-            délicieux
-            voyage
-        </p1>
+        </li>
+        <li class="menu-deroulant">
+            <a href="#">Evénements</a>
+            <ul class="sous-menu">
+                <li><a href="#">Soirées</a></li>
+                <li><a href="#">Exposition</a></li>
+            </ul>
+        </li>
+        <li><a href="#">À propos</a></li>
+        <li><a href="#">Contactez-nous</a></li>
+    </ul>
+</nav>
+<p1>Bonjour bienvenu dans mon univers vous trouverez ici mes tableaux et mes dessins je vous souhaite un
+    délicieux
+    voyage
+</p1>
 
-        <img class="main_img" src="../static/images/dandara.jpeg" width="500" th:src="@{images/dandara.jpeg}"/>
+<img class="main_img" src="../static/images/dandara.jpeg" width="500" th:src="@{images/dandara.jpeg}"/>
 
-        </body>
+</body>
 </html>
 

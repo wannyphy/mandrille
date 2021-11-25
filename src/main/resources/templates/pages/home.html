@@ -13,10 +13,11 @@
     <div id="wrapper">
         <h1 id="text3d" class="chrome">Mandrille84</h1>
         <h3 id="text3d" class="dreams">art</h3>
-        <p>Localisation:<span th:text=${#locale.country}></span></p>
-        </div>
+        Established locale country: <span th:text="${#locale.country}">US</span>        </div>
 
-            <input class="bouton_1984" type="button" value="1984" onclick=style84()>
+
+    <a href="#" class="btn-flip" data-back="Back" data-front="Front"></a>
+    <input class="bouton_1984" type="button" value="1984" onclick=style84()>
             <input class="bouton_Now" type="button" value="now" onclick=styleNow()>
             <section>
                 <div class="background-img">

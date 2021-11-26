@@ -6,35 +6,35 @@
 </head>
 <title>Title</title>
 
-<link id="css"  th:href="@{/css/main.css}" rel="stylesheet"/>
+<link id="css" th:href="@{/css/main.css}" rel="stylesheet"/>
 <script type="text/javascript" th:src="@{/js/main.js}"></script>
 </head>
 <header>
-
-
     <div id="wrapper">
-        <h1  class="chrome">Mandrille84</h1>
-        <h3  class="dreams">art</h3>
+        <h1 class="chrome">Mandrille84</h1>
+        <h3 class="dreams">art</h3>
         <div class="circle"></div>
-        <h1><span></span><br/><span></span><br/><span>Welcom</span><br/><span>to</span><br/><span>Mandrille84</span></h1>
-        Established locale country: <span th:text="${#locale.country}">US</span>        </div>
+        <h1>
+            <span></span><br/><span></span><br/><span><span>Mandrille84</span></span><br/><span>art</span><br/><span></span>
+        </h1>
+        <!--Established locale country: <span th:text="${#locale.country}">US</span></div>-->
 
     <a href="#" class="btn-now" data-back="1984" data-front="return to" onclick=style84()></a>
     <a href="#" class="btn-flip" data-back="the future" data-front="Back to" onclick=styleNow()></a>
-            <section>
-                <div class="background-img">
-                    <div class="box">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <div class="content">
-                        </div>
-                        <img class="head_img" src="../static/images/caliostro.jpeg" width="500"
-                             th:src="@{images/caliostro.jpeg}"/>
-                    </div>
+    <section>
+        <div class="background-img">
+            <div class="box">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <div class="content">
                 </div>
-            </section>
+                <img class="head_img" src="../static/images/caliostro.jpeg" width="500"
+                     th:src="@{images/caliostro.jpeg}"/>
+            </div>
+        </div>
+    </section>
     <div class="button-block">
         <div class="social"><a href="#"> <i class="fab fa-facebook"></i></a></div>
         <div class="social"><a href="#"> <i class="fab fa-twitter"></i></a></div>

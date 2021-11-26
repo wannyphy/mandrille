@@ -375,7 +375,6 @@ body { background: #000; color: #000000; position: relative;}
     background-position:-680px 0;
     -webkit-background-clip: text;
     -webkit-text-stroke: 0;
-    padding-right: 300px;
     -webkit-animation-name: chrome_effect;
     -webkit-animation-duration: 6s;
     -webkit-animation-delay: 2s;

@@ -153,6 +153,8 @@ li a {
     text-decoration: none;
     font-family: 'Open Sans';
     text-transform: uppercase;
+    color: white;
+    text-shadow: 0 0 0.05em #fff, 0 0 0.2em #0509fe, 0 0 0.3em #05fe72;
 }
 .btn-flip:hover:after {
     opacity: 1;
@@ -167,19 +169,20 @@ li a {
     left: 0;
     opacity: 0;
     width: 100%;
-    color: #323237;
     display: block;
     transition: 0.5s;
     position: absolute;
-    background: #adadaf;
+    background: #58585e;
     content: attr(data-back);
     transform: translateY(-50%) rotateX(90deg);
+    color: white;
+    text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
 }
 .btn-flip:before {
     top: 0;
     left: 0;
     opacity: 1;
-    color: #adadaf;
+    color: white;
     display: block;
     padding: 0 30px;
     line-height: 40px;

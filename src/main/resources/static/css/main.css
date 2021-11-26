@@ -309,7 +309,7 @@ header::after {
     height: 600px;
     position: absolute;
     opacity: 50%;
-    top: -370px;
+    top: -340px;
     left: 30%;
     transform: rotate(55deg);
     background: rgba(206,188,155,.7);

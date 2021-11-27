@@ -1,5 +1,6 @@
 :root {
     --hauteur-menu: 60px;
+    max-width: 100%;
 }
 
 * {
@@ -436,17 +437,16 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
 
 
 .d1, .d2, .d3, .d4 {
-    background-color: #523a69;
+    background-color: white;;
     margin: 0 auto 70px auto;
     margin-left: auto;
-    border: 1px solid #523a69;
+    border: 1px solid white;
     box-sizing: border-box;
     animation-name: taille;
     animation-duration: 3s;
     animation-timing-function: cubic-bezier(.6, -0.28, .74, .05);
-    animation-iteration-count: infinite;
+    animation-iteration-count: 2;
     border-radius: 60%;
-    box-shadow: #06520C;
 }
 
 .d1 {
@@ -484,13 +484,13 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
     margin-top: 115px;
     margin-left: -150px;
     height: 45px;
-    border: 1px solid #523a69;
+    background-color: white;
+    border: 1px solid white;
     box-sizing: border-box;
     animation-duration: 3s;
     animation-timing-function: cubic-bezier(.6, -0.28, .74, .05);
-    animation-iteration-count: infinite;
+    animation-iteration-count: 2;
     border-radius: 60%;
-    box-shadow: #06520C;
 }
 
 .d7 {

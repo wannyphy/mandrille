@@ -432,7 +432,7 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
 /*--------taches---------------*/
 
 
-.d1, .d2, .d3 {
+.d1, .d2, .d3,.d4,.d5,.d6 {
     width: 700%;
     background-color: #523a69;
     margin: 0 auto 70px auto;
@@ -448,9 +448,9 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
 
 .d1 {
     animation-direction: alternate;
-    margin-bottom: -210px;
+    margin-bottom: -50px;
     margin-left: 500px;
-    height: 100px;
+    height: 110px;
 }
 
 .d2 {
@@ -467,23 +467,23 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
     height: 150px;
 }
 
-.d3 {
+.d4 {
     animation-direction: alternate;
-    margin-top: 115px;
+    margin-top: -525px;
     margin-left: 248px;
     height: 150px;
 }
 
-.d3 {
+.d5 {
     animation-direction: alternate;
-    margin-top: 115px;
-    margin-left: 248px;
-    height: 150px;
+    margin-top: 415px;
+    margin-right: -550px;
+    height: 45px;
 }
 
-.d3 {
+.d6 {
     animation-direction: alternate;
-    margin-top: 115px;
+    margin-top: -120px;
     margin-left: 248px;
     height: 150px;
 }

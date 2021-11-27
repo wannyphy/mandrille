@@ -403,6 +403,9 @@ header::after {
     width: 300px;
     border-radius: 100%;
     background: #523a69;
+    animation-name: couleur;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
 h1 {
@@ -432,7 +435,7 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
 /*--------taches---------------*/
 
 
-.d1, .d2, .d3,.d4,.d5,.d6 {
+.d1, .d2, .d3, .d4 {
     background-color: #523a69;
     margin: 0 auto 70px auto;
     margin-left: auto;
@@ -448,13 +451,13 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
 
 .d1 {
     animation-direction: alternate;
-    margin-bottom: -50px;
-    margin-left: 500px;
-    height: 110px;
+    margin-bottom: -80px;
+    margin-left: 550px;
+    height: 155px;
 }
 
 .d2 {
-    animation-direction: alternate;
+    nimation-direction: alternate;
     margin-left: 500px;
     height: 200px;
     margin-bottom: -300px;
@@ -463,29 +466,35 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
 .d3 {
     animation-direction: alternate;
     margin-top: 115px;
-    margin-left: 248px;
+    margin-left: 128px;
     height: 150px;
 }
 
 .d4 {
     animation-direction: alternate;
-    margin-top: -525px;
-    margin-left: 248px;
-    height: 150px;
+    margin-left: 408px;
+    height: 70px;
+    margin-bottom: 4px;
 }
+
 
 .d5 {
+    animation-name: taille2;
     animation-direction: alternate;
-    margin-top: 415px;
-    margin-right: -550px;
+    margin-top: 115px;
+    margin-left: -150px;
     height: 45px;
+    border: 1px solid #523a69;
+    box-sizing: border-box;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(.6, -0.28, .74, .05);
+    animation-iteration-count: infinite;
+    border-radius: 60%;
+    box-shadow: #06520C;
 }
 
-.d6 {
-    animation-direction: alternate;
-    margin-top: -120px;
-    margin-left: 248px;
-    height: 150px;
+.d7 {
+    margin-bottom: -290px;
 }
 
 
@@ -497,7 +506,7 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
     }
     25% {
         width: 45%;
-        background-color:#523a69;
+        background-color: #523a69;
         border: 1px solid #523a69;
     }
     25% {
@@ -512,7 +521,7 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
     }
     75% {
         width: 45%;
-        background-color:#523a69;
+        background-color: #523a69;
         border: 1px solid #523a69;
     }
     to {
@@ -522,6 +531,91 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
     }
 }
 
+@keyframes taille {
+    from {
+        width: 10%;
+        background-color: white;
+        border: 1px solid white;
+    }
+    25% {
+        width: 45%;
+        background-color: #523a69;
+        border: 1px solid #523a69;
+    }
+    25% {
+        width: 45%;
+        background-color: #693a55;
+        border: 1px solid #693a55;
+    }
+    50% {
+        width: 45%;
+        background-color: #693a5e;
+        border: 1px solid #693a5e;
+    }
+    75% {
+        width: 45%;
+        background-color: #523a69;
+        border: 1px solid #523a69;
+    }
+    to {
+        width: 35%;
+        background-color: white;
+        border: 1px solid white;
+    }
+}
 
+@keyframes couleur {
+    from {
+        background-color: #523a69;
+    }
+    25% {
+        background-color: #523a69;
+    }
+    25% {
+        background-color: #693a55;
+    }
+    50% {
+        background-color: #693a5e;
+    }
+    75% {
+        background-color: #523a69;
+    }
+    to {
+        background-color: #523a69;
+    }
+}
+
+@keyframes taille2 {
+    from {
+        width: 5%;
+        background-color: white;
+        border: 1px solid white;
+    }
+    25% {
+        width: 10%;
+        background-color: #523a69;
+        border: 1px solid #523a69;
+    }
+    25% {
+        width: 15%;
+        background-color: #693a55;
+        border: 1px solid #693a55;
+    }
+    50% {
+        width: 20%;
+        background-color: #693a5e;
+        border: 1px solid #693a5e;
+    }
+    75% {
+        width: 25%;
+        background-color: #523a69;
+        border: 1px solid #523a69;
+    }
+    to {
+        width: 30%;
+        background-color: white;
+        border: 1px solid white;
+    }
+}
 
 

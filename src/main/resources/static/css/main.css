@@ -1,12 +1,15 @@
 :root {
     --hauteur-menu: 60px;
-    max-width: 100%;
+
 }
 
 * {
     margin: 0px;
     padding: 0px;
     font-family: Montserrat, sans-serif;
+}
+.div{
+    margin-bottom: 8%;
 }
 
 nav {
@@ -401,7 +404,7 @@ header::after {
 .circle {
     margin: auto;
     height: 300px;
-    width: 300px;
+    max-width: 300px;
     border-radius: 100%;
     background: #523a69;
     animation-name: couleur;

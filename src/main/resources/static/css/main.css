@@ -7,7 +7,7 @@
     --facebook: #3b5999;
     --twitter: #55acee;
     --instagram: #e4405f;
-    --apple: #131418;
+    --apple: #0a66c2;
 
 }
 
@@ -642,6 +642,7 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
     margin: 0;
     padding: 0;
     display: flex;
+    margin-top: 50%;
 }
 
 .social li {

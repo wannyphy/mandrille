@@ -3,11 +3,11 @@
     --peach: #ffad69;
     --white: #ffffff;
     --black: #000;
-    --grey : #D3D3D3;
+    --grey : #936087;
     --facebook: #3b5999;
     --twitter: #55acee;
-    --instagram: #e4405f;
-    --apple: #0a66c2;
+    --instagram: #dc2279;
+    --apple: #073f75;
 
 }
 
@@ -630,10 +630,6 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
 }
 
 
-
-
-
-
 .social {
     position: absolute;
     top: 50%;
@@ -652,7 +648,7 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
 
 .social li a .fab{
     font-size: 40px;
-    color: black;
+    color: rgb(0, 244, 255);
     line-height: 80px;
     transition: .5s;
 }
@@ -662,11 +658,11 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
     display: block;
     width: 80px;
     height: 80px;
-    background: #808080;
+    background: #7720a8;
     text-align: center;
     transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0);
     transition: .5s;
-    box-shadow: -30px 30px 10px rgba(0,0,0,.5);
+    box-shadow: -30px 30px 10px rgba(11, 214, 223, 0.5);
 }
 
 .social li a:before {
@@ -676,7 +672,7 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
     left: -20px;
     height: 100%;
     width: 20px;
-    background: #93a092;
+    background: #673a69;
     transition: .5s;
     transform: rotate(0deg) skewY(-45deg);
 }
@@ -706,7 +702,7 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
     background: var(--facebook);
 }
 
-.sociall li:hover:nth-child(1) a:before {
+.social li:hover:nth-child(1) a:before {
     background: #5E77AB;
 }
 
@@ -744,11 +740,24 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
 }
 
 .social li:hover:nth-child(4) a:before {
-    background: #171717;
+    background: #0d5393;
 }
 
 .social li:hover:nth-child(4) a:after{
-    background: #2E2E2E;
+    background: #0f4b88;
+}
+
+
+
+
+.main_img {
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+}
+.main_img:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
 }
 
 

@@ -10,6 +10,10 @@ public class Pagecontroller {
     public String home(){
         return "pages/home";
     }
+    @GetMapping("/paint")
+    public String paint(){
+        return "pages/paint";
+    }
 /*    @GetMapping("/")
     public String readCookie(@CookieValue(value = "username", defaultValue = "Atta") String username) {
         return "Hey! My username is " + username;

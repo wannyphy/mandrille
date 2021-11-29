@@ -1,5 +1,14 @@
 :root{
     --hauteur-menu: 60px;
+    --hauteur-menu: 60px;
+    --peach: #ffad69;
+    --white: #ffffff;
+    --black: #000;
+    --grey : #936087;
+    --facebook: #3b5999;
+    --twitter: #55acee;
+    --instagram: #dc2279;
+    --apple: #073f75;
 }
 
 * {
@@ -404,6 +413,7 @@ body { background: #000; color: #000000; position: relative;}
 }
 
 
+
 .social {
     position: absolute;
     top: 50%;
@@ -412,7 +422,7 @@ body { background: #000; color: #000000; position: relative;}
     margin: 0;
     padding: 0;
     display: flex;
-    margin-top: 50%;
+    margin-top: 33%;
 }
 
 .social li {
@@ -520,4 +530,3 @@ body { background: #000; color: #000000; position: relative;}
 .social li:hover:nth-child(4) a:after{
     background: #0f4b88;
 }
-

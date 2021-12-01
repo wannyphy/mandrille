@@ -210,6 +210,13 @@ h1 {
     font-family: Damascus;
 }
 
+p{
+    text-underline-color: white;
+    color: white;
+    text-transform: uppercase;
+    font-family: Damascus;
+}
+
 h2 {
     text-underline-color: white;
     color: white;

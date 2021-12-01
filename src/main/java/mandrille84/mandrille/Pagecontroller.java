@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class Pagecontroller {
-    @GetMapping("/home")
+    @GetMapping("/")
     public String home() {
         return "pages/home";
     }
@@ -33,15 +33,16 @@ public class Pagecontroller {
         return "pages/wait";
     }
     @GetMapping("/contact")
+
     public String waitcontact() {
         return "pages/contact";
     }
-    @Controller
-    @PropertySource(ignoreResourceNotFound = true , value = "classpath:messages.properties")
-    public class HomePageController {
 
-
+    @GetMapping("/copyright")
+    public String  copyright() {
+        return "pages/copyright";
     }
+
 
 /*    @GetMapping("/")
     public String readCookie(@CookieValue(value = "username", defaultValue = "Atta") String username) {

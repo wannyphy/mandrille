@@ -23,8 +23,8 @@
 <div class="write">
     <h1>Oops... something went wrong.</h1>
     <h2 th:text="${status + ' ' + error}"></h2></div>
- <div>
-            <a href="#" class="btn-flip" data-back="main" data-front="Back to" onclick=styleNow()></a>
-        </div>
+<div>
+    <a th:href="@{/}" class="btn-flip" data-back="main" data-front="Back to" ></a>
+</div>
 </body>
 </html>

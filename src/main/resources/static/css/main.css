@@ -802,6 +802,46 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
         font-size: 1.4em;
         text-align: center;
     }
+
+    nav {
+        width: 100%;
+        font-size: 87%;
+        position: sticky;
+        top: 0;
+    }
+    nav > ul > li {
+        background-color: white;
+        position: relative;
+        height: 100%;
+        flex: 1;
+    }
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Montserrat, sans-serif;
+    }
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Montserrat, sans-serif;
+    }
+    nav ul {
+        list-style-type: none;
+    }
+    nav > ul {
+        text-align: center;
+    }
+    nav {
+        font-size: 87%;
+    }
+    menu-deroulant > a::after {
+        content: '❯';
+        font-size: 100%;
+        margin-left: 12%;
+        display: inline-block;
+        color: skyblue;
+    }
+
 }
 
 

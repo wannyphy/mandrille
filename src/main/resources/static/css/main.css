@@ -424,6 +424,7 @@ header::after {
 }
 
 .nowTitle {
+    max-width: 93%;
     font-family: 'Lobster', cursive;
     color: #D5E2D6;
     text-align: center;
@@ -752,7 +753,6 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
     border-radius: 0% 0% 0% 0% / 0% 0% 0% 0%;
     box-shadow: 20px 20px rgba(0, 0, 0, .15);
     transition: all .4s ease;
-    margin-left: 6%;
 }
 
 .main_img:hover {
@@ -787,6 +787,7 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
     }
 
     .nowTitle {
+        max-width: 1%;
         font-family: 'Lobster', cursive;
         color: #D5E2D6;
         text-align: center;
@@ -798,6 +799,12 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
         -ms-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
         transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
         text-shadow: 1px 1px #cda7f0, 2px 2px #847295, 3px 3px #8957b9, 4px 4px #a687c4, 5px 5px #8b59bb, 6px 6px, 7px 7px #523a69, 8px 8px #523a69, 9px 9px #523a69, 10px 10px #523a69, 11px 11px #523a69, 12px 12px #523a69, 13px 13px #523a69, 14px 14px #523a69, 15px 15px #523a69, 16px 16px #523a69, 17px 17px #523a69, 18px 18px #523a69, 19px 19px #523a69, 20px 20px #523a69, 21px 21px #523a69, 22px 22px #523a69, 23px 23px #523a69, 24px 24px #523a69, 25px 25px #523a69, 26px 26px 6px #06520C;
+    }
+    .main_img {
+        border-radius: 0% 0% 0% 0% / 0% 0% 0% 0%;
+        box-shadow: 20px 20px rgba(0, 0, 0, .15);
+        transition: all .4s ease;
+        margin-left: 6%;
     }
 
     span:nth-child(1), span:nth-child(9), span:nth-child(5) {
@@ -865,7 +872,62 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
         display: inline-block;
         color: skyblue;
     }
+    .social li a::after {
 
+        content: '';
+        position: absolute;
+        bottom: -20px;
+        left: -10px;
+        height: 20px;
+        width: 100%;
+        background: var(--grey);
+        transition: .5s;
+        transform: rotate(0deg) skewX(-45deg);
+
+    }
+    .social li a::before {
+
+        content: '';
+        position: absolute;
+        top: 10px;
+        left: -20px;
+        height: 100%;
+        width: 20px;
+        background: #673a69;
+        transition: .5s;
+        transform: rotate(0deg) skewY(-45deg);
+
+    }
+    élément {
+
+    }
+    .social li a {
+
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 80px;
+        background: #7720a8;
+        text-align: center;
+        transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0, 0);
+        transition: .5s;
+        box-shadow: -30px 30px 10px rgba(11, 214, 223, 0.5);
+    }
+    .social li {
+        list-style: none;
+        margin: 10%;
+    }
+    .social {
+        position: absolute;
+        top: 50%;
+        left: 35%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        margin-top: 0px;
+        padding: 0;
+        display: flex;
+        margin-top: 33rem;
+    }
 
 }
 

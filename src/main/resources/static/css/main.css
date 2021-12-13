@@ -760,7 +760,7 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
 }
 
 
-@media (max-width: 850px) {
+@media (max-width: 600px) {
     * {
         margin: 0px;
         padding: 0px;
@@ -923,16 +923,22 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
         margin: 12%;
     }
 
+
+    élément {
+
+    }
     .social {
+
         position: absolute;
-        top: 50%;
-        left: 35%;
+        left: 28%;
         transform: translate(-50%, -50%);
         margin: 0;
         margin-top: 0px;
+        margin-top: 0px;
         padding: 0;
         display: flex;
-        margin-top: 33rem;
+        margin-top: 25rem;
+
     }
 
     header::after {

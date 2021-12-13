@@ -920,7 +920,7 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
 
     .social li {
         list-style: none;
-        margin: 10%;
+        margin: 12%;
     }
 
     .social {
@@ -938,7 +938,7 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
     header::after {
         content: "";
         width: 66%;
-        height: 1600px;
+        height: 100px;
         position: absolute;
         opacity: 15%;
         left: 0%;

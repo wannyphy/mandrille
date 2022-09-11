@@ -1,20 +1,27 @@
 package mandrille84.mandrille;
 
+
+import mandrille84.mandrille.services.PaintingServices;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+
 @Controller
 public class Pagecontroller {
+@Autowired
+    PaintingServices paintingServices;
+
     @GetMapping("/")
     public String home() {
         return "pages/home";
     }
 
     @GetMapping("/paint")
-    public String paint() {
+    public String paint(Model model) {
+        model.addAttribute("painting",paintingServices.name());
         return "pages/paint";
     }
 

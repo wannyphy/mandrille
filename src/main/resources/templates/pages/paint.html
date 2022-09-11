@@ -26,7 +26,11 @@
                                  th:src="@{images/caliostro2.jpeg}"/></div>
                         <figcaption>
                             Cagliostro
-                            <span class="credit">  Si vous souhaitez passer commande pour cette peinture contactée : mandrille84@gmail.com</span>
+                            <span class="credit">
+                            <div th:each="painting : ${painting}">
+                                 <a th:text="${painting.getNama()}"></a>
+                            </div>
+                                Si vous souhaitez passer commande pour cette peinture contactée : mandrille84@gmail.com</span>
                         </figcaption>
                     </figure>
                 </li>

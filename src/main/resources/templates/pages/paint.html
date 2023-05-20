@@ -9,7 +9,7 @@
 <section>
     <div class="container">
         <div>
-            <a th:href="@{/}" class="btn-flip" data-back="main" data-front="Back to"></a>
+            <a class="btn-flip" data-back="main" data-front="Back to" th:href="@{/}"></a>
         </div>
         <div class="carousel">
             <input checked="checked" id="slide-1" name="slides" type="radio">
@@ -18,6 +18,12 @@
             <input id="slide-4" name="slides" type="radio">
             <input id="slide-5" name="slides" type="radio">
             <input id="slide-6" name="slides" type="radio">
+            <input id="slide-7" name="slides" type="radio">
+            <input id="slide-8" name="slides" type="radio">
+            <input id="slide-9" name="slides" type="radio">
+            <input id="slide-10" name="slides" type="radio">
+            <input id="slide-11" name="slides" type="radio">
+            <input id="slide-12" name="slides" type="radio">
             <ul class="carousel__slides">
                 <li class="carousel__slide">
                     <figure>
@@ -28,7 +34,7 @@
                             Cagliostro
                             <span class="credit">
                             <div th:each="painting : ${painting}">
-                                 <a th:text="${painting.getNama()}"></a>
+                                 <a th:text="${painting.getName()}"></a>
                             </div>
                                 Si vous souhaitez passer commande pour cette peinture contactée : mandrille84@gmail.com</span>
                         </figcaption>
@@ -75,7 +81,7 @@
                         <figcaption>
                             Queens
                             <span class="credit">  Si vous souhaitez passer commande pour cette peinture contactée : mandrille84@gmail.com ou  envoyez un mail avec nft en objet pour la version nft:                            <a
-                                  href=" https://opensea.io/0xb5f1c90271de6b8b5e77c709dfa3f142087572ac">NFT</a>
+                                    href=" https://opensea.io/0xb5f1c90271de6b8b5e77c709dfa3f142087572ac">NFT</a>
                             </span>
                         </figcaption>
                     </figure>
@@ -88,6 +94,74 @@
                         <figcaption>
                             Pirates
                             <span class="credit">  Si vous souhaitez passer commande pour cette peinture contactée : mandrille84@gmail.com</span>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img class="head_img" src="../static/images/fishy.jpg"
+                                 th:src="@{images/fishy.jpg}"/></div>
+                        <figcaption>
+                            Fishy
+                            <span class="credit">  Si vous souhaitez passer commande pour cette peinture contactée : mandrille84@gmail.com</span>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img class="head_img" src="../static/images/firststep.jpeg"
+                                 th:src="@{images/firststep.jpeg}"/></div>
+                        <figcaption>
+                            FirstStep
+                            <span class="credit">Si vous souhaitez passer commande pour cette peinture contactée : mandrille84@gmail.com</span>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img class="head_img" src="../static/images/MalagaDeseo.jpeg"
+                                 th:src="@{images/MalagaDeseo.jpeg}"/></div>
+                        <figcaption>
+                            MalagaColors
+                            <span class="credit">Si vous souhaitez passer commande pour cette peinture contactée : mandrille84@gmail.com</span>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img class="head_img" src="../static/images/mandrille.jpg"
+                                 th:src="@{images/mandrille.jpg}"/></div>
+                        <figcaption>
+                            mandrille
+                            <span class="credit">Si vous souhaitez passer commande pour cette peinture contactée : mandrille84@gmail.com</span>
+                        </figcaption>
+                    </figure>
+                </li>
+
+                <li class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img class="head_img" src="../static/images/sandman.jpeg"
+                                 th:src="@{images/sandman.jpeg}"/></div>
+                        <figcaption>
+                            sandman
+                            <span class="credit">Si vous souhaitez passer commande pour cette peinture contactée : mandrille84@gmail.com</span>
+                        </figcaption>
+                    </figure>
+                </li>
+
+                <li class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img class="head_img" src="../static/images/wuStyle.jpeg"
+                                 th:src="@{images/wuStyle.jpeg}"/></div>
+                        <figcaption>
+                            wuStyle
+                            <span class="credit">Si vous souhaitez passer commande pour cette peinture contactée : mandrille84@gmail.com</span>
                         </figcaption>
                     </figure>
                 </li>
@@ -113,14 +187,36 @@
                     <label for="slide-5"><img alt="" src="../static/images/queens.jpeg" th:src="@{images/queens.jpeg}"></label>
                 </li>
                 <li>
-                    <label for="slide-6"><img alt="" src="../static/pirates.jpeg"
+                    <label for="slide-6"><img alt="" src="../static/images/pirates.jpeg"
                                               th:src="@{images/pirates.jpeg}"></label>
+                </li>
+                <li>
+                    <label for="slide-7"><img alt="" src="../static/images/fishy.jpg"
+                                              th:src="@{images/fishy.jpg}"></label>
+                </li>
+                <li>
+                    <label for="slide-8"><img alt="" src="../static/images/firststep.jpeg"
+                                              th:src="@{images/firststep.jpeg}"></label>
+                </li>
+                <li>
+                    <label for="slide-9"><img alt="" src="../static/images/MalagaDeseo.jpeg"
+                                              th:src="@{images/MalagaDeseo.jpeg}"></label>
+                </li>
+                <li>
+                    <label for="slide-10"><img alt="" src="../static/images/mandrille.jpg"
+                                               th:src="@{images/mandrille.jpg}"></label>
+                </li>
+                <li>
+                    <label for="slide-11"><img alt="" src="../static/images/sandman.jpeg"
+                                               th:src="@{images/sandman.jpeg}"></label>
+                </li>
+                <li>
+                    <label for="slide-12"><img alt="" src="../static/images/wuStyle.jpeg"
+                                               th:src="@{images/wuStyle.jpeg}"></label>
                 </li>
             </ul>
         </div>
     </div>
-
 </section>
-
 </body>
 </html>

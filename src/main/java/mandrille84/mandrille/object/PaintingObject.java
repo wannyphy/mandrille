@@ -1,15 +1,18 @@
 package mandrille84.mandrille.object;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class PaintingObject {
-    String nama;
+    String name;
     String message;
 
-    public String getNama() {
-        return nama;
+    public String getName() {
+        return name;
     }
 
-    public void setNama(String nama) {
-        this.nama = nama;
+    public void setName(String nama) {
+        this.name = nama;
     }
 
     public String getMessage() {

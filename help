@@ -1,0 +1,4 @@
+pour lancer en local:
+faire un boot jar
+cd build/libs
+java -jar nom.jar

@@ -50,6 +50,11 @@ public class Pagecontroller {
         return "pages/copyright";
     }
 
+    @GetMapping("/expo")
+    public String  expo() {
+        return "pages/expo";
+    }
+
 
 /*    @GetMapping("/")
     public String readCookie(@CookieValue(value = "username", defaultValue = "Atta") String username) {

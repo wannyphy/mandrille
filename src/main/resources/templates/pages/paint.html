@@ -25,6 +25,7 @@
             <input id="slide-11" name="slides" type="radio">
             <input id="slide-12" name="slides" type="radio">
             <input id="slide-13" name="slides" type="radio">
+            <input id="slide-14" name="slides" type="radio">
             <ul class="carousel__slides">
                 <li class="carousel__slide">
                     <figure>
@@ -175,6 +176,17 @@
                         </figcaption>
                     </figure>
                 </li>
+                <li class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img class="head_img" src="../static/images/reve.jpg"
+                                 th:src="@{images/reve.jpg}"/></div>
+                        <figcaption>
+                            rêve
+                            <span class="credit">Si vous souhaitez passer commande pour cette peinture contactée : mandrill84@gmail.com</span>
+                        </figcaption>
+                    </figure>
+                </li>
             </ul>
             <ul class="carousel__thumbnails">
                 <li>
@@ -227,6 +239,10 @@
                 <li>
                     <label for="slide-13"><img alt="" src="../static/images/paris.jpg"
                                                th:src="@{images/paris.jpg}"></label>
+                </li>
+                <li>
+                    <label for="slide-14"><img alt="" src="../static/images/reve.jpg"
+                                               th:src="@{images/reve.jpg}"></label>
                 </li>
             </ul>
         </div>
